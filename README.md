@@ -16,34 +16,34 @@ Nonlinear dynamical systems offer a robust framework for understanding market fl
 ## **2. Mathematical Formulation**
 ### **2.1 Nonlinear Dynamical Systems in Finance**
 A dynamical system is described by:
-\[
+$$
 \frac{dx}{dt} = f(x, y) \quad \text{and} \quad \frac{dy}{dt} = g(x, y)
-\]
+$$
 where \( x \) represents the asset price and \( y \) represents the volatility measure or external market force.
 
 ### **2.2 Systems Considered**
 1. **Recursive Market Model:**
-\[
+$$
 x' = y^2, \quad y' = -\frac{2}{3}x
-\]
+$$
    - Used to analyze financial oscillations and risk accumulation.
 
 2. **Nonlinear Price Evolution:**
-\[
+$$
 x' = x^2 + y^2 - 4, \quad y' = y - 2x
-\]
+$$
    - Models stock price deviations due to external market shocks.
 
 3. **Sinusoidal Market Cycles:**
-\[
+$$
 x' = \sin(y), \quad y' = \sin(x)
-\]
+$$
    - Represents cyclic behavior in high-frequency trading.
 
 4. **Recursive Price Dynamics:**
-\[
+$$
 p_{n+1} = \frac{(p_n^2)(\alpha - \beta) + \beta p_n}{(p_n^2)(\alpha - 2\beta + \gamma) + 2p_n(\beta - \gamma) + \gamma}
-\]
+$$
    - Captures price corrections and self-regulating mechanisms.
 
 ---
